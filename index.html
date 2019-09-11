@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.Square{
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			font-size: 25pt;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body onload="startGame();">
+	<table  class="table" border="1">
+		<div id="message">messages will go here</div>
+	  <tbody>
+	    <tr>
+	      <td id="s1" class="Square" onClick="nextMove(this);"></td>
+	      <td id="s2" class="Square" onClick="nextMove(this);"></td>
+	      <td id="s3" class="Square" onClick="nextMove(this);"></td>
+	    </tr>
+	    <tr>
+	      <td id="s4" class="Square" onClick="nextMove(this);"></td>
+	      <td id="s5" class="Square" onClick="nextMove(this);"></td>
+	      <td id="s6" class="Square" onClick="nextMove(this);"></td>
+	    </tr>
+	    <tr>
+	      <td id="s7" class="Square" onClick="nextMove(this);"></td>
+	      <td id="s8" class="Square" onClick="nextMove(this);"></td>
+	      <td id="s9" class="Square" onClick="nextMove(this);"></td>
+	    </tr>
+	  </tbody>
+	</table>
+	<a href="javascript:startGame();">Chơi lại</a>
+	<script type="text/javascript" src="script.js
+	"></script>
+</body>
+</html>
