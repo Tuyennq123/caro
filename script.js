@@ -47,6 +47,8 @@ function switchTurn(){
 	else if (document.turn == "X") {
 		document.turn = "O";
 		setMessage("Lượt của "+ document.turn + "");
+		//1. convert time sang giờ:phút:giây ngày-tháng-năm H:i:s 
+		//2. hiển thị time
 		//log time 
 		console.log(time);
 	} else{
